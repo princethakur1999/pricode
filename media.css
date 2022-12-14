@@ -1,0 +1,125 @@
+@media screen and (max-width: 991px) {
+
+    h3 {
+        font-size: 1.2rem;
+        ;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+
+
+    .examples-area {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .examples-card {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .card-text {
+        bottom: 80px;
+    }
+
+
+    .quiz-section {
+        padding-block: 80px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    .primary-button {
+        width: 100%;
+    }
+
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .left-header {
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .features-card {
+        min-width: calc(50% - 10px);
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link-column {
+        align-items: stretch;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 479px) {
+    * {
+        padding-inline: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        ;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .features-card {
+        min-width: 100%;
+    }
+
+    .examples-card {
+        width: 100%;
+    }
+}
