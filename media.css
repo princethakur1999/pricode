@@ -98,10 +98,6 @@
 
 
 @media screen and (max-width: 479px) {
-    * {
-        padding-inline: 10px;
-    }
-
     h1 {
         font-size: 2rem;
         ;
