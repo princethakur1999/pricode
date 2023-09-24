@@ -1,3 +1,3 @@
 # pricode
 
-I designed this home page website using HTML, CSS and JavaScript whit the help of anuj bhaiya (youtuber).
+I designed this web page using HTML, CSS and JavaScript.
